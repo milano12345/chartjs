@@ -47,7 +47,7 @@ export default function ChartTest() {
   }
     return( 
       <div className='container'>
-        <h1>Hello World</h1>
+        <h1>Confirmed Covid 19 Cases</h1>
       {dataChart?<Line data={dataChart}/>:null}
       {console.log('dc2', dataChart)}
        {/* <Line data={ dataChart }/>  */}
